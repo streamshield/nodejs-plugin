@@ -1,0 +1,17 @@
+{
+  "name": "streamshield",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Official Streamshield npm library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "env-paths": "^3.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
