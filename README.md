@@ -4,10 +4,22 @@
 
 The Streamshield node client library is intended to speed up building plugins for applications that are built with node. The intention is for it to help speed up building plugins for other applications that are built with node, for example CMS's.
 
+## Installation
+
+```
+npm i streamshield
+```
+
+or
+
+```
+yarn add streamshield
+```
+
 ## Example
 
 ```
-import Streamshield from '../streamshield-nodejs-plugin'
+import Streamshield from 'streamshield'
 
 const ss = new Streamshield()
 ss.setApiKey('<your API access key>', '<your API secret key'>)
